@@ -40,6 +40,7 @@
     - openssh-server
     - postfix
     - curl
+    - ca-certificates
   when: ansible_os_family == 'Debian'
 
 - name: Download GitLab repository installation script (Debian).
